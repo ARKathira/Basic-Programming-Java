@@ -11,7 +11,7 @@ public class NewPattern{
 	private static void printpattern(int input) {
 		for (int i = 0; i < input; i++) {
 			for (int j = 0; j <= i; j++) {
-				System.out.print("*" + " ");
+				System.out.print("*" + "  ");
 			}
 			System.out.println(" ");
 		}
